@@ -137,35 +137,35 @@ sudo kill -9 PortNumber
 ```
 sudo kill -9 $(sudo lsof -t -i:PortNumbe
 ```
-**34. To update the Local Packages database.(New syntex, after Ubuntu 16.04 and higher versions).**
+**34. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions).**
 ```
 sudo apt update
 ```
-**35. To update the Local Packages database.(New syntex, after Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
+**35. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
 ```
 sudo apt update -y
 ```
-**36. To update the Local Packages database.(old syntex before Ubuntu 16.04 and lower versions).**
+**36. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions).**
 ```
 sudo apt-get update
 ```
-**37. To update the Local Packages database.(old syntex before Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
+**37. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
 ```
 sudo apt-get update -y
 ```
-**38. To upgrade the installed packages to latest versions.(New syntex, after Ubuntu 16.04 and higher versions).**
+**38. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions).**
 ```
 sudo apt upgrade
 ```
-**39. To upgrade the installed packages to latest versions.(New syntex, after Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
+**39. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
 ```
 sudo apt upgrade -y
 ```
-**40. To upgrade the installed packages to latest versions.(old syntex before Ubuntu 16.04 and lower versions).**
+**40. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions).**
 ```
 sudo apt-get upgrade
 ```
-**41. To upgrade the installed packages to latest versions.(old syntex before Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
+**41. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
 ```
 sudo apt-get upgrade -y
 ```
