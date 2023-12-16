@@ -15,11 +15,6 @@
 - [Process and Port Management Commands.](#Process-and-Port-Management-Commands)
 - [Software Package Update and Upgrade Commands.](#Software-Package-Update-and-Upgrade-Commands)
 - [System Resource Commands.](#System-Resource-Commands)
-  - [To check Hardware Components and details.](*43.-To-List-out-Hardware-Components-and-details)
-  - [To check CPU details, architecture, cores, threads and more.](*44.-To-List-out-CPU-details,-architecture,-cores,-threads-and-more)
-  - [To check number of CPU cores.](*45.-To-check-number-of-CPU-cores)
-  - [To check System Memory Usage.](*46.-To-check-System-Memory-Usage)
-  - [To see the Memory usage and System matrics in Visually.](*48.-To-see-the-Memory-usage-and-System-matrics-in-Visually)
 - [MongoDB Commands.](#MongoDB-Commands)
 - [About Me](#Hi,-I'm-Manu-KM!-👋)
 
