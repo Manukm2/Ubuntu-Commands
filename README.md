@@ -15,7 +15,13 @@
 - [Process and Port Management Commands.](#Process-and-Port-Management-Commands)
 - [Software Package Update and Upgrade Commands.](#Software-Package-Update-and-Upgrade-Commands)
 - [System Resource Commands.](#System-Resource-Commands)
-- [About Me](#about-me)
+  - [To check Hardware Components and details.](#Hardware-Components-and-details)
+  - [To check CPU details, architecture, cores, threads and more.](#CPU-details,-architecture,-cores,-threads-and-more)
+  - [To check number of CPU cores.](#To-check-number-of-CPU-cores)
+  - [To check System Memory Usage.](#To-check-System-Memory-Usage)
+  - [To see the Memory usage and System matrics in Visually.](#To-see-the-Memory-usage-and-System-matrics-in-Visually)
+- [MongoDB Commands.](#MongoDB-Commands)
+- [About Me](#Hi,-I'm-Manu-KM!-👋)
 
 ## Basic Ubuntu Commands.
 ***1. To open terminal in Ubuntu.***
@@ -229,6 +235,25 @@ sudo apt install htop
 ```
 htop
 ```
+## MongoDB Commands.
+***49. To check the status of the MongoDB service.***
+```
+sudo systemctl status mongod
+```
+***50. To manually start the MongoDB service.***
+```
+sudo systemctl start mongod
+```
+***51. To manually stop the MongoDB service.***
+```
+sudo systemctl stop mongod
+```
+***52. To connect to a MongoDB server and initiate a connection to a replica set with the specified name "rs0".***
+```
+sudo mongod --replSet rs0
+```
+
+
 
 # Hi, I'm Manu KM! 👋
 ### 🚀 About Me
