@@ -1,21 +1,41 @@
-# Ubuntu Commands
-**1. To open terminal in Ubuntu.**
+# Ubuntu Terminal Commands :-
+
+## Table of Contents
+- [Basic Ubuntu Commands.](#Basic-Ubuntu-Commands)
+- [File System Commands.](#File-System-Commands)
+- [File and Directory Listing.](#File-and-Directory-Listing)
+- [File and Directory Management Commands.](#File-and-Directory-Management-Commands)
+- [File Copying Commands.](#File-Copying-Commands)
+- [Print Working Directory.](#Print-Working-Directory)
+- [Default Application Opening Commands.](#Default-Application-Opening-Commands)
+- [Executable Location Commands.](#Executable-Location-Commands)
+- [File Content Display and Manipulation Commands.](#File-Content-Display-and-Manipulation-Commands)
+- [File Access Permission Commands.](#File-Access-Permission-Commands)
+- [Network Information Commands.](#Network-Information-Commands)
+- [Process and Port Management Commands.](#Process-and-Port-Management-Commands)
+- [Software Package Update and Upgrade Commands.](#Software-Package-Update-and-Upgrade-Commands)
+- [System Resource Commands.](#System-Resource-Commands)
+- [About Me](#about-me)
+
+## Basic Ubuntu Commands.
+***1. To open terminal in Ubuntu.***
 ```
 Ctrl + Alt + T
 ```
-**2. To know more about Linux Commands.**
+***2. To know more about Linux Commands.***
 ```
 man echo
 ```
-**3. Current Directory.**
+## File System Commands.
+***3. Current Directory.***
 ```
 .
 ```
-**4. Previous Directory.**
+***4. Previous Directory.***
 ```
 ..
 ```
-**5. To go directly to Home from anywhere.**
+***5. To go directly to Home from anywhere.***
 ```
 cd
 ```
@@ -23,177 +43,189 @@ or
 ```
 cd~
 ```
-**6. To come out from the Current directory.**
+***6. To come out from the Current directory.***
 ```
 cd ..
 ```
-**7. To get inside directory.**
+***7. To get inside directory.***
 ```
 cd DirectoryName
 ```
-**8. To go directly from one directory to another directory.**
+***8. To go directly from one directory to another directory.***
 ```
 cd DirectoryName
 ```
-**9. To go directly from one directory to another directory.**
+***9. To go directly from one directory to another directory.***
 ```
 cd DirectoryName
 ```
-**10. To List out all items excluding hidden files.**
+## File and Directory Listing.
+***10. To List out all items excluding hidden files.***
 ```
 ls
 ```
-**11. To List out all items including hidden files.**
+***11. To List out all items including hidden files.***
 ```
 ls -a 
 ```	
-**12. To List out all items with more details..**
+***12. To List out all items with more details.***
 ```
 ls -l
 ```	
-**13. To List out all items along with Sub-Directory items..**
+***13. To List out all items along with Sub-Directory items.***
 ```
 ls -R
 ```	
-**14. To List out all items in reverse order..**
+***14. To List out all items in reverse order.***
 ```
 ls -r
 ```	
-**15. To List out all items in recent modification..**
+***15. To List out all items in recent modification.***
 ```
 ls -t
 ```	
-**16. Combining all above "ls" commands.**
+***16. Combining all above "ls" commands.***
 ```
 ls -ltrh 
 ```	
-**17. To create Directory.**
+## File and Directory Management Commands.
+***17. To create Directory.***
 ```
 mkdir DirectoryName
 ```	
-**18. To create Sub-Direc.**
+***18. To create Sub-Direc.***
 ```
 mkdir DirecName/Sub-DirecName
 ```	
-**19. To copy items from one directory to another directory.**
+## File Copying Commands.
+***19. To copy items from one directory to another directory.***
 ```
 cp Source-Path Destination-Path
 ```	
-**20. To check current directory Path.**
+## Print Working Directory.
+***20. To check current directory Path.***
 ```
 pwd
 ```
-**21. To open current directory as GUI Mode..**
+## Default Application Opening Commands.
+***21. To open current directory as GUI Mode.***
 ```
 xdg-open .
 ```
-**22. To open specified directory as GUI Mode.**
+***22. To open specified directory as GUI Mode.***
 ```
 xdg-open /usr/bin
 ```
-**23. To check path of specific item.**
+## Executable Location Commands.
+***23. To check path of specific item.***
 ```
 which FileName
 ```
-**24. To read data from the file.**
+## File Content Display and Manipulation Commands.
+***24. To read data from the file.***
 ```
 cat FileName.txt
 ```
-**25. To create new file and write content.**
+***25. To create new file and write content.***
 ```
 cat > FileName
 	content..
 	content..
 ```
-**26. To override the content.**
+***26. To override the content.***
 ```
 echo "content" > FileName
 ```
-**27. To display Path Environmental Variable.**
+***27. To display Path Environmental Variable.***
 ```
 echo $PATH
 ```
-**28. To provide permissions for executable files.**
+## File Access Permission Commands.
+***28. To provide permissions for executable files.***
 ```
 chmod +x FileName 
 ```
-**29. To check IP Address.**
+## Network Information Commands.
+***29. To check IP Address***
 ```
 curl ifconfig.me -s
 ```
-**30. To check IP Address.**
+***30. To check IP Address***
 ```
 hostname -I
 ```
-**31. To List out all open network ports which are used by system.**
+## Process and Port Management Commands.
+***31. To List out all open network ports which are used by system.***
 ```
 sudo netstat -tulpn | grep LISTEN
 ```
-**32. To forcefully kill or terminate particular port.**
+***32. To forcefully kill or terminate particular port.***
 ```
 sudo kill -9 PortNumber
 ```
-**33. To forcefully kill or terminate particular port..**
+***33. To forcefully kill or terminate particular port.***
 ```
-sudo kill -9 $(sudo lsof -t -i:PortNumbe
+sudo kill -9 $(sudo lsof -t -i:PortNumbe)
 ```
-**34. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions).**
+## Software Package Update and Upgrade Commands.
+***34. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions).***
 ```
 sudo apt update
 ```
-**35. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
+***35. To update the Local Packages database.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts.***
 ```
 sudo apt update -y
 ```
-**36. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions).**
+***36. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions).***
 ```
 sudo apt-get update
 ```
-**37. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
+***37. To update the Local Packages database.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts***
 ```
 sudo apt-get update -y
 ```
-**38. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions).**
+***38. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions).***
 ```
 sudo apt upgrade
 ```
-**39. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).**
+***39. To upgrade the installed packages to latest versions.(New syntex, from Ubuntu 16.04 and higher versions and Assumes "Yes" for any prompts).***
 ```
 sudo apt upgrade -y
 ```
-**40. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions).**
+***40. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions).***
 ```
 sudo apt-get upgrade
 ```
-**41. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).**
+***41. To upgrade the installed packages to latest versions.(old syntex upto Ubuntu 16.04 and lower versions and Assumes "Yes" for any prompts).***
 ```
 sudo apt-get upgrade -y
 ```
-**42. Install "lshw" to see Hardware Information.**
+## System Resource Commands.
+***42. Install "lshw" to see Hardware Information.***
 ```
 sudo apt-get install lshw
 ```
-**43. To List out Hardware Components and details.**
+***43. To List out Hardware Components and details.***
 ```
 sudo lshw
 ```
-**44. To List out CPU details, architecture, cores, threads and more.**
+***44. To List out CPU details, architecture, cores, threads and more.***
 ```
 lscpu
 ```
-**45. To check number of CPU cores.**
+***45. To check number of CPU cores.***
 ```
 nproc
 ```
-**46. To check System Memory Usage..**
+***46. To check System Memory Usage.***
 ```
 free -h
 ```
-**47. Install "htop" to see Memory usage and System matrics.**
+***47. Install "htop" to see Memory usage and System matrics.***
 ```
 sudo apt install htop
 ```
-**48. To see the Memory usage and System matrics in Visually.**
+***48. To see the Memory usage and System matrics in Visually.***
 ```
 htop
 ```
@@ -208,4 +240,3 @@ Java | SQL | HTML | CSS | JavaScript | React JS | JDBC | Servlets| JSP | Hiberna
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manu-km-7ba832168/)
 ### Feedback
 If you have any feedback, please reach out to me at manukm969@gmail.com
-
